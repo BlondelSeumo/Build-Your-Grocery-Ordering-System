@@ -1,0 +1,108 @@
+body{
+    direction: rtl;
+}
+.loader-container .loader-ripple{
+    left: 0;
+    right: 50%;
+    transform: none;
+}
+.main_logo{
+    margin-right: 10px;
+}
+.header_right{
+    margin-left: 0 !important;
+    margin-right: auto;
+    padding-left: 15px;
+}
+.main-title-left span, .cate-header, .cat_name, .footer .contact, .checkout-card, .checkout-step-body, .checkout-step-body p,
+.main-title-tab h4, .pdpt-bg, .product-dt-right, .product-dt-right h2, .product-dt-right p, .address-fieldset .form-group,
+.pdpt-body h1, .pdpt-body h2, .pdpt-body h3, .pdpt-body h4, .pdpt-body h5, .pdpt-body h6, .pdpt-body p, .pdpt-body span .pdpt-body div,
+.pdpt-body .product_attr, .cart-text h4, .text-left, .checkout-safety-alerts p,#user-request-form .form-group, .contact-title h2,
+.contact-title p, .panel-title, .panel-body p, .panel-body, .address-placed-dt1 p, .bill-detail, .itm-ttl, .offers-text h4,
+.offers-text h5,.offers-text p, .more-link14, .ddsh-body h2,.address-dt-all h4, .welcome-text h2, .srch_explore, .form-dropdown,
+.transition .item {
+    text-align: right !important;
+}
+.social-links-footer{
+    text-align: left !important;
+}
+.social-links-footer ul li:last-child{
+    padding-right: 15px;
+}
+.call-email-alt li{
+    margin-right: 0;
+}
+.see-more-btn{
+    position: absolute;
+    left: 0;
+}
+.user-item i{
+    margin-left: 10px;
+}
+::-webkit-input-placeholder {
+    text-align:right;
+}
+.address-btns, .checkout-cart, .panel-title > a.collapsed:before, .product-sort{
+    float: left !important;
+}
+.title585 h4, .pln-icon, .main-title-tt, .product-radio,.address-fieldset .address-btns, .product-left-title{
+    float: right !important;
+}
+.checkout-cart-close-btn,.cart-close-btn{
+    position: absolute !important;
+    right: auto !important;
+    left: 0 !important;
+}
+.ml-auto, .header_cart, .cart-icon, .cart-total-dil span, .main-total-cart span, .invc-link, .print-btn, .order-status, .smll-history p, .order-bill-slip{
+    margin-right: auto !important;
+    margin-left:  0 !important;
+}
+.cart-text{
+    margin-right: 20px;
+    margin-left: 0;
+}
+.panel-title > a:before{
+    float: left !important;
+    padding-left: 0 !important;
+}
+.address-placed-dt1 i, .main-title-tab i{
+    margin-left: 5px;
+    margin-right: 0;
+}
+.st-hm i, .order-title span, .main-cart-title span{
+    margin-left: 0;
+    margin-right: 5px;
+}
+.mr-1{
+    margin-left: .25rem!important;
+}
+.address-icon1{
+    margin-left: 10px;
+    margin-right: 0;
+}
+.bs-wizard > .bs-wizard-step:first-child > .progress{
+    right: 50%;
+    left: 0;
+}
+.order-dt47{
+    margin-left: 0;
+    margin-right: 15px;
+}
+.cart-item-price span,.product-price .line-through{
+    margin-left: 0;
+    margin-right: 10px;
+}
+.color-discount:after {
+    margin-right: 20px;
+}
+.cart__btn ins{
+    margin-right: 5px;
+}
+.offer-link{
+    margin-left: 18px !important;
+    margin-right: 6px !important;
+}
+.checkout-step-number{
+    margin-left: 20px;
+    margin-right: 0;
+}

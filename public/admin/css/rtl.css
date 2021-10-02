@@ -1,0 +1,156 @@
+body{
+    direction: rtl;
+}
+
+@media (min-width: 768px){
+    .navbar-vertical.navbar-expand-md.fixed-left{
+        left: auto !important;
+        right: 0 !important;
+    }
+    .navbar-vertical.navbar-expand-md.fixed-left + .main-content{
+        margin-right: 250px !important;
+        margin-left: 0 !important;
+    }
+    .navbar-vertical.navbar-expand-md .navbar-nav .nav-link{
+        padding: 0.65rem 2.5rem 0.65rem 1rem !important
+    }
+}
+.navbar-vertical.navbar-expand-md .navbar-nav{
+    margin-right: -4.5rem !important;
+}
+.navbar-vertical .navbar-nav .nav-link > i{
+    min-width: auto !important;
+    margin-left: 1rem !important;
+}
+.navbar-vertical .navbar-nav .nav-link[data-toggle='collapse']:after{
+    margin-right: auto !important;
+    margin-left: initial !important;
+    transform: rotate(180deg) !important;
+}
+.navbar-vertical .navbar-nav .nav-link[data-toggle=collapse][aria-expanded=true]:after{
+    transform: rotate(90deg)!important;
+    color: var(--primary_color) !important;
+}
+.rtl-avatar{
+    margin-left: 10px !important;
+}
+.rtl-flag{
+    margin-left: -38px !important;
+}
+.col{
+    text-align: right !important;
+}
+p{
+    text-align: right !important;
+}
+.btn-primary{
+    float: left !important;
+}
+div.dataTables_wrapper div.dataTables_filter input {
+    margin-right: 15px !important;
+}
+div.dataTables_wrapper div.dataTables_info {
+    padding-right: 20px !important;
+}
+div.dataTables_wrapper div.dataTables_paginate ul.pagination{
+    padding-left: 20px !important;
+}
+.only_search div.dataTables_wrapper div.dataTables_filter label{
+    float: left !important;
+}
+.fa-angle-right:before{
+    content: "\f104" !important;
+}
+.fa-angle-left:before{
+    content: "\f105" !important;
+}
+.show_sidebar, .show_sidebar_create, .show_sidebar_edit{
+    left: 0px !important;
+    right: auto !important;
+}
+button.close{
+    float: left !important;
+}
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col, .col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm, .col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md, .col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg, .col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl, .col-xl-auto{
+    text-align: right !important;
+}
+.table-responsive .btn-group {
+    float: left;
+    padding-left: 20px !important;
+    margin-top: 32px;
+    margin-bottom: 20px;
+}
+.rtl-date-filter-btn{
+    float: none !important;
+}
+.rtl-float-none, .text-center .rtl-float-none{
+    float: none !important;
+}
+.rtl-date-filter-row{
+    margin-bottom: -75px !important;
+}
+.only_search div.dataTables_wrapper div.dataTables_filter label {
+    margin-bottom: 15px !important;
+    margin-top: 16px !important;
+}
+.select2-container--default .select2-results > .select2-results__options {
+    direction: rtl;
+    text-align: right; 
+}
+.settings .nav-pills .nav-link {
+    text-align: right !important;
+}
+.settings .fa,.settings .ni, .settings .fas,.settings .far, .rtl-icon .ni, .rtl-icon .fa, .rtl-icon .fas, .rtl-icon .far, .btn .fas{
+    margin-left: 10px !important;
+}
+.rtl-float-left{
+    float: left !important;
+}
+.rtl-align-left{
+    text-align: left !important;
+}
+.dropdown-menu .dropdown-item{
+    text-align: right !important;
+}
+.noti-title{
+    text-align: right !important;
+}
+.rtl-flag span{
+    margin-left: 10px !important;
+}
+.rtl-p p{
+    text-align: left !important;
+}
+.rtl-mr{
+    margin-right: 10px !important;
+}
+.avatar-group .avatar + .avatar {
+    margin-right: -1rem !important;
+    margin-left: 0 !important;
+}
+.preload {
+    left: 52% !important;
+    top: 36% !important;
+}
+.center{
+    text-align: center !important;
+}
+.tabs-left li .active::after{
+   display: none;
+}
+.custom-file-label{
+    text-align: end !important;
+}
+.nav-item .rounded-circle{
+    margin-left: 10px !important;
+} 
+.breadcrumb-item + .breadcrumb-item::before{
+    padding-left: .5rem !important;
+}
+.logo-login h1, .login-btn .btn-primary{
+    text-align: center !important;
+    float: none !important;
+}
+.flag-icon{
+    margin-left: 8px;
+}
